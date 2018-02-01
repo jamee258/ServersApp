@@ -1,0 +1,309 @@
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background: #289ee2;
+	color: white;
+	text-align: center;
+}
+
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: transparent;
+	border-color: white;
+	margin-bottom: 5px;
+}
+
+.btn-primary:hover {
+	color: #27A967;
+	background-color: white;
+	border-color: white;
+}
+
+.navbar-inverse {
+	background: #2E2F31;
+	border: 0;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #f7f7f7;
+	font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background: #27A967;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+	background: #2C463C;
+}
+
+html {
+	background-color: #289ee2;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2, h3, h4 {
+	font-size: 22px;
+}
+
+.menu {
+	text-align: left;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: #289ee2;
+}
+
+/* Modal Content */
+.modal-content {
+	border: 3px dashed #ccc;
+	color: white;
+	font-family: calibri;
+	background-color: #289ee2;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 100%;
+	font-family: calibri;
+}
+
+/* The Close Button */
+.close {
+	color: #ffffff;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.dropbtn {
+	background-color: #289ee2;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	cursor: pointer;
+	font-size: 16px;
+	text-align: center;
+	border: 3px dashed #ccc;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	background-color: #3d748e;
+}
+
+#myInput {
+	box-sizing: border-box; //
+	background-image: url('searchicon.png');
+	background-position: 14px 12px;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	padding: 14px 20px 12px 45px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #E0E0E0;
+	min-width: 230px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: grey;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	background-color: blue;
+}
+
+.dropdown a:hover {
+	background-color: #ddd;
+}
+
+.show {
+	display: block;
+}
+
+.box {
+	height: 50%;
+	width: 50%;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.2);
+	padding: 35px;
+	border: 2px solid #fff;
+	border-radius: 20px/50px;
+	background-clip: padding-box;
+	text-align: center;
+}
+
+.button {
+	font-size: 1em;
+	padding: 10px;
+	color: #fff;
+	border: 2px solid #06D85F;
+	border-radius: 20px/50px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+
+.button:hover {
+	background: #06D85F;
+}
+
+.heading {
+	background-color: #0a75b2;
+	overflow: hidden;
+}
+
+.heading a {
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.heading a:hover {
+	background-color: red;
+}
+
+p {
+	color: dimgrey;
+}
+
+#myBtn1 {
+	color: #3097ff;
+}
+
+#myBtn2 {
+	color: #3097ff;
+}
+
+#myBtn3 {
+	color: #3097ff;
+}
+
+#myBtn4 {
+	color: #3097ff;
+}
+
+#myBtn5 {
+	color: #3097ff;
+}
+
+#myBtn6 {
+	color: #3097ff;
+}
+
+#header-title {
+	color: #289ee2;
+	text-shadow: 0 0 2px black;
+}
+
+#nava nav-tabs {
+	background-color: #289ee2;
+}
+
+#databaseProducts {
+	color: white;
+	background-color: #289ee2;
+	padding-left: 10px;
+}
+
+#databaseProducts b {
+	text-shadow: 1px 1px 0px black;
+}
+
+#jbossProducts {
+	color: white;
+	background-color: #289ee2;
+	padding-left: 10px;
+}
+
+#jbossProducts b {
+	text-shadow: 1px 1px 0px black;
+}
+
+#muleProducts {
+	color: white;
+	background-color: #289ee2;
+	padding-left: 10px;
+}
+
+#muleProducts b {
+	text-shadow: 1px 1px 0px black;
+}
+
+#boProducts {
+	color: white;
+	background-color: #289ee2;
+	padding-left: 10px;
+}
+
+#boProducts b {
+	text-shadow: 1px 1px 0px black;
+}
+
+#etlJobProducts {
+	color: white;
+	background-color: #289ee2;
+	padding-left: 10px;
+}
+
+#etlJobProducts b {
+	text-shadow: 1px 1px 0px black;
+}
+
+#etlManagementProducts {
+	color: white;
+	background-color: #289ee2;
+	padding-left: 10px;
+}
+
+#etlManagementProducts b {
+	text-shadow: 1px 1px 0px black;
+}
+
+#sharepointApplicationProducts {
+	color: white;
+	background-color: #289ee2;
+	padding-left: 10px;
+}
+
+#sharepointApplicationProducts b {
+	text-shadow: 1px 1px 0px black;
+}
